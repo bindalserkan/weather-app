@@ -77,7 +77,7 @@ export default function App() {
         </form>
 
         {typeof currentWeather.main !== "undefined" ? (
-          <div>
+          <div className="current-info-container">
             <div className="city-and-date-container">
               <div className="city">
                 {currentWeather.name}, {currentWeather.sys.country}
